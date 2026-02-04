@@ -1,3 +1,4 @@
+// routes/authRoutes.js
 import express from 'express';
 import { register, login, getProfile } from '../controllers/authController.js';
 import { authMiddleware } from '../middleware/auth.js';
